@@ -1,5 +1,12 @@
 # AI Voice-Controlled To-Do App  
 
+
+![Screenshot 2025-03-26 170424](https://github.com/user-attachments/assets/dbee739a-4baa-48d2-9b1d-1f6d0b1d6701)
+
+![Screenshot 2025-03-26 170105](https://github.com/user-attachments/assets/fc17e6e5-528c-4772-9a3e-0bd154ac5c77)
+
+
+
 An AI-powered to-do application using React (Frontend) and Python (Backend) with voice control capabilities.  
 
 ## 🚀 Live Demo  
