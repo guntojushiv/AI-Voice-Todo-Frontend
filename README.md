@@ -10,8 +10,7 @@
 An AI-powered to-do application using React (Frontend) and Python (Backend) with voice control capabilities.  
 
 ## 🚀 Live Demo  
-🔗 Frontend: [Live on Vercel](https://your-frontend-url.vercel.app)  
-🔗 Backend: [Live on Render](https://your-backend-url.onrender.com)  
+🔗  [Live on Vercel]:- (https://ai-voice-todo-frontend-733c.vercel.app/)
 
 ## 🔧 Tech Stack  
 - **Frontend:** React, Tailwind CSS, Vercel  
