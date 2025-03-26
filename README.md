@@ -1,70 +1,58 @@
-# Getting Started with Create React App
+# 🎤 AI Voice-Controlled To-Do App 🚀  
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+An AI-powered **To-Do List App** that allows users to add tasks using **voice commands**. Built using **React.js (Frontend)** and **FastAPI (Backend with Python)**.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🛠️ Tech Stack  
+- **Frontend:** React.js, Tailwind CSS, Axios  
+- **Backend:** FastAPI, SpeechRecognition (Python), Uvicorn  
+- **Database:** In-memory storage (can be extended to PostgreSQL/MongoDB)  
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 📌 Features  
+✔️ **Voice-Controlled Task Management** – Add tasks using speech commands  
+✔️ **FastAPI Backend** – Lightweight and high-performance API  
+✔️ **React Frontend** – Modern UI with Tailwind CSS  
+✔️ **REST API Integration** – Fetch and add tasks dynamically  
+✔️ **Scalable & Deployable** – Can be extended with authentication & database support  
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## 🎥 Demo  
+👉 **[Live Demo](#)** (Add link after deployment)  
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 🚀 Installation & Setup  
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 1️⃣ **Clone the Repository**
+```sh
+git clone https://github.com/guntojushiv/AI-Voice-Todo-App.git
+cd AI-Voice-Todo-App
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+2️⃣ Backend Setup (FastAPI)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+cd backend
+python -m venv venv
+venv\Scripts\activate      # Windows
+pip install -r requirements.txt
+uvicorn main:app --reload
+API running at: http://127.0.0.1:8000/docs
 
-### `npm run eject`
+3️⃣ Frontend Setup (React.js)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+cd frontend
+npm install
+npm start
+App running at: http://localhost:3000
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+🌍 Deployment:-
+Frontend (Netlify/Vercel)
+1.Push frontend code to GitHub
+2.Deploy via Vercel or Netlify
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Backend (Render/Heroku)
+1.Push backend code to GitHub
+2.Deploy via Render or Heroku
